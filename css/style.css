@@ -1,0 +1,176 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        url('../fonts/roboto-v30-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+        url('../fonts/roboto-v30-latin-700.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2'),
+        url('../fonts/play-v19-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2'),
+        url('../fonts/play-v19-latin-700.ttf') format('truetype');
+}
+
+:root {
+    --color-main: #011C44;
+    --color-link: #2B7FFF;
+    --color-buttom: #FFFFFF;
+    --color-record: #4A4A4A;
+    --color-choose: #000000;
+    --color-date: #747272;
+}
+
+/*Main*/
+
+body {
+    color: var(--color-main);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.link-heder {
+    color: var(--color-main);
+}
+
+.link-heder:hover {
+    color: var(--color-link);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+/*kosmetologichna-klinika*/
+.main-title {
+    color: var(--color-link);
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 114px;
+}
+
+.button {
+    color: var(--color-buttom);
+    background-color: var(--color-link);
+    border: 2px solid var(--color-link);
+    width: 219px;
+    height: 53px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 32px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button:hover {
+    color: var(--color-main);
+    background-color: transparent;
+}
+
+.record {
+    color: var(--color-record);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+/*perevtilyujtes-v-spanbeaty-zone*/
+.main-beauty-zone {
+    color: var(--color-link);
+}
+
+.perevtilyujtes-v-beaty-zone {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74.05px;
+}
+
+.beauty-zone {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+/*perevagi*/
+
+.choose-us {
+    color: var(--color-choose);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.choose {
+    font-family: 'Play', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74.05px;
+}
+
+.procedures {
+    color: var(--color-buttom);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*footer*/
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+.link-footer {
+    color: var(--color-buttom);
+}
+
+.date {
+    color: var(--color-date);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15.23px;
+}
